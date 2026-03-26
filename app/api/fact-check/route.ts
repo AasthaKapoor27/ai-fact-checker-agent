@@ -96,7 +96,7 @@ import { NextResponse } from 'next/server';
 
 const N8N_WEBHOOK_URL =
   process.env.N8N_WEBHOOK_URL ||
-  'http://localhost:5678/webhook/fact-check';
+  'https://n8n-service-7au3.onrender.com/webhook/fact-check';
 
 export async function POST(request: Request) {
   try {
