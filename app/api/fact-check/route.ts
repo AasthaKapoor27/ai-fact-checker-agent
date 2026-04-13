@@ -73,7 +73,7 @@
 //new code
 import { NextResponse } from 'next/server';
 
-const N8N_WEBHOOK_URL = 'http://localhost:5678/webhook-test/fact-check';
+const N8N_WEBHOOK_URL = 'https://unchattering-claudia-noncompressively.ngrok-free.dev/webhook/fact-check-v2';
 
 export async function POST(request: Request) {
   try {
